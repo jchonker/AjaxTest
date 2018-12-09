@@ -32,28 +32,4 @@
   	<servlet-name>userlogin</servlet-name>
   	<url-pattern>/userlogin.do</url-pattern>
   </servlet-mapping>
-  
-  
-   
-  <!-- ajax pakage TimeAction -->
-  <servlet>
-  	<servlet-name>time</servlet-name>
-  	<servlet-class>com.bjpowernode.ajax.web.action.TimeAction</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-  	<servlet-name>time</servlet-name>
-  	<url-pattern>/time.do</url-pattern>
-  </servlet-mapping>
-
-
-  <!-- jquery对ajax的封装 -->
-  <servlet>
-  	<servlet-name>package</servlet-name>
-  	<servlet-class>com.bjpowernode.ajax.web.action.AjaxPakageByJquery</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>package</servlet-name>
-  	<url-pattern>/package.do</url-pattern>
-  </servlet-mapping>
 </web-app>
